@@ -1,9 +1,7 @@
-// netlify/functions/bus.js
-
 const API_URL = "https://www.rejseplanen.dk/api/nearbyDepartureBoard";
 
-export async function handler() {
-  const ACCESS_ID = process.env.REJSEPLANEN_API_KEY; // secret, stays on server
+async function handler(event, context) {
+  const ACCESS_ID = process.env.REJSEPLANEN_API_KEY;
 
   if (!ACCESS_ID) {
     console.error("Missing REJSEPLANEN_API_KEY");
@@ -41,3 +39,5 @@ export async function handler() {
     };
   }
 }
+
+module.exports = { handler };
