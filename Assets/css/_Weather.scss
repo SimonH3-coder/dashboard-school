@@ -19,18 +19,18 @@
   line-height: 1;
 
   .value {
-    font-size: 5.6rem;
+    font-size: 2.5rem;
   }
 
   .deg {
     display: inline-block;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     transform: translateY(-5px);
     margin-left: 4px;
   }
 
   &:not(:has(.deg)) {
-    font-size: 3.6rem;
+    font-size: 2.5rem;
   }
 }
 

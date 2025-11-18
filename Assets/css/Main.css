@@ -15,7 +15,7 @@ body {
 
 .dashboard {
   display: grid;
-  grid-template-columns: 700px 1fr;
+  grid-template-columns: 400px 1fr;
   min-height: 100vh;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 #date {
-  font-size: 3.5rem;
+  font-size: 2.25rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #fff;
@@ -55,7 +55,7 @@ body {
 }
 
 #clock {
-  font-size: 5.35rem;
+  font-size: 3.35rem;
   font-weight: 800;
   line-height: 1;
   letter-spacing: 0.01em;
@@ -83,16 +83,16 @@ body {
   line-height: 1;
 }
 .weather-temp .value {
-  font-size: 5.6rem;
+  font-size: 2.5rem;
 }
 .weather-temp .deg {
   display: inline-block;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   transform: translateY(-5px);
   margin-left: 4px;
 }
 .weather-temp:not(:has(.deg)) {
-  font-size: 3.6rem;
+  font-size: 2.5rem;
 }
 
 .weather-description {
@@ -114,8 +114,8 @@ body {
   border-bottom: 2px solid #fff;
 }
 .canteen-icon {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   background: url("../images/Icon-map-food.png") center/contain no-repeat;
   filter: brightness(0) invert(1);
   margin-bottom: -0.5rem;
@@ -126,7 +126,7 @@ body {
 }
 .canteen-title {
   font-weight: 900;
-  font-size: 4.25rem;
+  font-size: 2.25rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   line-height: 1;
@@ -145,8 +145,8 @@ body {
 .canteen-item {
   display: grid;
   grid-template-columns: 80px 1fr;
-  gap: 75px;
-  font-size: 2rem;
+  gap: 25px;
+  font-size: 1.25rem;
 }
 .canteen-day {
   opacity: 0.95;
@@ -163,7 +163,7 @@ body {
 }
 .schedule-table thead th {
   text-align: left;
-  font-size: 3.5rem;
+  font-size: 2.25rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -171,7 +171,7 @@ body {
 }
 .schedule-table tbody td {
   padding: 0.75rem 1.25rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   border-bottom: 1px solid #e8ebef;
   vertical-align: middle;
 }
@@ -253,10 +253,10 @@ body {
 .bus-title {
   display: flex;
   font-weight: 900;
-  font-size: 4.25rem;
+  font-size: 2.25rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  margin-bottom: -1.75rem;
+  margin-bottom: -3.5rem;
 }
 .bus-list {
   margin: 10px 0 0;
@@ -292,7 +292,7 @@ body {
 
 .dashboard {
   display: grid;
-  grid-template-columns: 700px 1fr;
+  grid-template-columns: 400px 1fr;
   min-height: 100vh;
 }
 
@@ -304,7 +304,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 700px;
+  width: 400px;
 }
 .aside::after {
   content: "";
